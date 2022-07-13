@@ -56,16 +56,24 @@ body {
 
 .informacion {
     width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: orange; */
     
 }
 
-.informacion img {
-    width: 60%;
-
+.informacion > div {
+    width: auto;
+    height: auto;
+    /* background-color: blue; */
 }
 
-.informacion div {
-    margin-left: 50px;
+.informacion img {
+    width: 500px;
+    /* background-color: #282A2E; */
+
 }
 
 .informacion h1 {
@@ -121,19 +129,18 @@ body {
         display: block;
         width: 100%;
         height: 100vh;
-        background-color: var(--color4);
+        /* background-color: var(--color5); */
     } 
 
     .informacion {
         
         height: 70%;
-        width: 100%;
+        width: auto;
 
-        padding-left: 0px;
-        height: 70%;
+        margin-left: 40px;
         display: flex;
         align-items: center;
-        width: 100%;
+        justify-content: start;
 
         /* background-color: gold; */
     }
@@ -147,7 +154,8 @@ body {
  
 
     .informacion img {
-        width: 75%;
+        width: 100%;
+        /* background-color: blue; */
     }
 
 
@@ -177,7 +185,7 @@ body {
     
     .informacion p{
         font-weight: 200;
-        font-size: 13px;
+        font-size: 15px;
     }
 }
 
